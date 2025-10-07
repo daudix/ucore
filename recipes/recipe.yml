@@ -19,6 +19,7 @@ modules:
     install:
       packages:
         - docker-ce
+        - tuned
         # uCore packages from normal edition, without all the bloat
         - cockpit-storaged
         - hdparm
