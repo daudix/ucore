@@ -32,11 +32,11 @@ modules:
         - xdg-dbus-proxy
         - xdg-user-dirs
         # uCore HCI
-        - cockpit-machines
-        - libvirt-client
-        - libvirt-daemon-kvm
-        - ublue-os-libvirt-workarounds
-        - virt-install
+        # - cockpit-machines
+        # - libvirt-client
+        # - libvirt-daemon-kvm
+        # - ublue-os-libvirt-workarounds
+        # - virt-install
     remove:
       packages:
         # CoreOS packages
@@ -50,6 +50,6 @@ modules:
         - docker-compose
         - podman-compose
         - tailscale
-        - wireguard-tools
+        # - wireguard-tools
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
